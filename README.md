@@ -4,13 +4,13 @@ Automatically generate your API documentation from your existing Laravel routes.
 
 `php artisan api:gen --routePrefix="settings/api/*"`
 
-![image](http://img.shields.io/packagist/v/mpociot/laravel-apidoc-generator.svg?style=flat)
-![image](http://img.shields.io/packagist/l/mpociot/laravel-apidoc-generator.svg?style=flat)
-[![codecov.io](https://codecov.io/github/mpociot/laravel-apidoc-generator/coverage.svg?branch=master)](https://codecov.io/github/mpociot/laravel-apidoc-generator?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mpociot/laravel-apidoc-generator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mpociot/laravel-apidoc-generator/?branch=master)
-[![Build Status](https://travis-ci.org/mpociot/laravel-apidoc-generator.svg?branch=master)](https://travis-ci.org/mpociot/laravel-apidoc-generator)
+![image](http://img.shields.io/packagist/v/famdiksen/laravel-apidoc-generator.svg?style=flat)
+![image](http://img.shields.io/packagist/l/famdirksen/laravel-apidoc-generator.svg?style=flat)
+[![codecov.io](https://codecov.io/github/famdirksen/laravel-apidoc-generator/coverage.svg?branch=master)](https://codecov.io/github/famdirksen/laravel-apidoc-generator?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/famdirksen/laravel-apidoc-generator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/famdirksen/laravel-apidoc-generator/?branch=master)
+[![Build Status](https://travis-ci.org/famdirksen/laravel-apidoc-generator.svg?branch=master)](https://travis-ci.org/famdirksen/laravel-apidoc-generator)
 [![StyleCI](https://styleci.io/repos/57999295/shield)](https://styleci.io/repos/57999295)
-[![Dependency Status](https://www.versioneye.com/php/mpociot:laravel-apidoc-generator/dev-master/badge?style=flat)](https://www.versioneye.com/php/mpociot:laravel-apidoc-generator/dev-master)
+[![Dependency Status](https://www.versioneye.com/php/famdirksen:laravel-apidoc-generator/dev-master/badge?style=flat)](https://www.versioneye.com/php/famdirksen:laravel-apidoc-generator/dev-master)
 
 
 ## Installation
@@ -18,7 +18,7 @@ Automatically generate your API documentation from your existing Laravel routes.
 Require this package with composer using the following command:
 
 ```sh
-$ composer require mpociot/laravel-apidoc-generator
+$ composer require famdirksen/laravel-apidoc-generator
 ```
 Go to your `config/app.php` and add the service provider:
 
